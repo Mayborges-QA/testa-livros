@@ -1,0 +1,13 @@
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\bin\Debug\netcoreapp2.1\TesteBlueSoft.deps.json
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\bin\Debug\netcoreapp2.1\TesteBlueSoft.runtimeconfig.json
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\bin\Debug\netcoreapp2.1\TesteBlueSoft.runtimeconfig.dev.json
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\bin\Debug\netcoreapp2.1\TesteBlueSoft.dll
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\bin\Debug\netcoreapp2.1\TesteBlueSoft.pdb
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\obj\Debug\netcoreapp2.1\TesteBlueSoft.csprojAssemblyReference.cache
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\obj\Debug\netcoreapp2.1\TesteBlueSoft.AssemblyInfoInputs.cache
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\obj\Debug\netcoreapp2.1\TesteBlueSoft.AssemblyInfo.cs
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\obj\Debug\netcoreapp2.1\TesteBlueSoft.dll
+C:\Users\BSI98423\Source\Repos\mayborgesti\testa-livros\obj\Debug\netcoreapp2.1\TesteBlueSoft.pdb

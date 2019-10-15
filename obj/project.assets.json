@@ -18,7 +18,6 @@
       "Microsoft.CSharp/4.3.0": {
         "type": "package",
         "dependencies": {
-
           "System.Collections": "4.3.0",
           "System.Diagnostics.Debug": "4.3.0",
           "System.Dynamic.Runtime": "4.3.0",
