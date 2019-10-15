@@ -17,7 +17,7 @@ namespace TesteBlueSoft
             var chromeOptions = new ChromeOptions();
             driver = new ChromeDriver(AppDomain.CurrentDomain.BaseDirectory, chromeOptions);
             driver.Manage().Window.Maximize();
-            waiter = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
+            waiter = new WebDriverWait(driver, TimeSpan.FromSeconds(200));
         }
     }
 }

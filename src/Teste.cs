@@ -27,8 +27,8 @@ namespace TesteBlueSoft.src
             web.driver.Navigate().GoToUrl("https://www.submarino.com.br");
 
             //pesquisar por livros
-            var search = web.waiter.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("#h_search-input")));
-            search.SendKeys("Livros");
+            var searchSubmarino = web.driver.FindElement(By.CssSelector("#h_search-input"));
+            searchSubmarino.SendKeys("Livros");
             web.waiter.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("#h_search > div > div.src-suggestion > ul > li.as-lst-it.sz.sz-1"))).Click();
 
             //guardar Autor
@@ -65,23 +65,18 @@ namespace TesteBlueSoft.src
             }
 
             //Acessar a Amazon
-            web.driver.Navigate().GoToUrl("https://www.amazon.com.br");
-
-
+            web.driver.Navigate().GoToUrl("https://www.livrariacultura.com.br");
             
+            //buscar por ISBN
+            var searchCultura = web.driver.FindElement(By.Id("Ntt-responsive"));
+            searchCultura.SendKeys(isbnSubmarinoText);
+            searchCultura.Submit();
+            
+            //Encerrar navegador
             web.driver.Quit();
-            //
-
-
-
-
-
+            
 
         }
 
-        private IWebElement GetIsbnSubmarino()
-        {
-            return web.waiter.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("#info-section > div:nth-child(2) > section > div.ColUI-gjy0oc-0.cxaHDZ.ViewUI-sc-1ijittn-6.iXIDWU > section > table > tbody > tr:nth-child(10) > td:nth-child(2) > span")));
-;        }
     }
 }
