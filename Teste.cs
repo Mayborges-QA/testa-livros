@@ -68,9 +68,9 @@ namespace TesteBlueSoft.src
             web.driver.Navigate().GoToUrl("https://www.livrariacultura.com.br");
             
             //buscar por ISBN
-            var searchAmazon = web.driver.FindElement(By.Id("Ntt-responsive"));
-            searchAmazon.SendKeys(isbnSubmarinoText);
-            searchAmazon.Submit();
+            var searchCultura = web.driver.FindElement(By.Id("Ntt-responsive"));
+            searchCultura.SendKeys(isbnSubmarinoText);
+            searchCultura.Submit();
             
             //Encerrar navegador
             web.driver.Quit();
